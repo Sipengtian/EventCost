@@ -8,7 +8,9 @@ public class Main {
         ConferenceEvent conferenceEvent = new ConferenceEvent("001", "AI", "Paris", "qq", 100, 3, 3,20, 30, 40 );
         conferenceEvent.calculateEventCost();
         System.out.println(conferenceEvent);
-
+        pastEvents PastEvent = new pastEvents("001", "AI", "Paris", "qq", 100, 3, 3);
+        PastEvent.getPaymentDetails();
+        System.out.println(PastEvent);
 
         //TIP 当文本光标位于高亮显示的文本处时按 <shortcut actionId="ShowIntentionActions"/>
         // 查看 IntelliJ IDEA 建议如何修复。

@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 
-public class Event {
+public abstract class Event {
     public static final double insuranceCost = 1000.00;
     public static final double tax = 0.3;
     private String eventID;
@@ -92,7 +92,5 @@ public class Event {
                 ", totalEventDays=" + totalEventDays +
                 '}';
     }
-    public void calculateEventCost(){
-        this.eventCost = eventCost + (eventCost * tax) + insuranceCost;
-    }
+    public abstract void calculateEventCost();
 }
