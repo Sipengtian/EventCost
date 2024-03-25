@@ -1,6 +1,6 @@
 package org.example;
 import java.time.LocalDate;
-public class pastEvents extends Event{
+public class pastEvents extends Event {
 
 
     private LocalDate eventStartDate;
@@ -46,7 +46,6 @@ public class pastEvents extends Event{
     public void setEventEndDate(LocalDate eventEndDate) {
         this.eventEndDate = eventEndDate;
     }
-    @Override
     public void calculateEventCost(){
         System.out.println("No use");
     }

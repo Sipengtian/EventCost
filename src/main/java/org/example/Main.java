@@ -11,6 +11,7 @@ public class Main {
         pastEvents PastEvent = new pastEvents("001", "AI", "Paris", "qq", 100, 3, 3);
         PastEvent.getPaymentDetails();
         System.out.println(PastEvent);
+        MusicConcertEvent music = new MusicConcertEvent("001", "AI", "Paris", "qq", 100, 3, 3,true,3000);
 
         //TIP 当文本光标位于高亮显示的文本处时按 <shortcut actionId="ShowIntentionActions"/>
         // 查看 IntelliJ IDEA 建议如何修复。
